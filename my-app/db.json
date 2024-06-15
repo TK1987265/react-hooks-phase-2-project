@@ -1,0 +1,22 @@
+{
+  "wrestlers": [
+    {
+      "id": 1,
+      "name": "John Cena",
+      "image": "https://example.com/john-cena.png",
+      "signatureMove": "Attitude Adjustment"
+    },
+    {
+      "id": 2,
+      "name": "The Rock",
+      "image": "https://example.com/the-rock.png",
+      "signatureMove": "Rock Bottom"
+    },
+    {
+      "id": "4f9f",
+      "name": "New Wrestler",
+      "image": "",
+      "signatureMove": "new"
+    }
+  ]
+}
