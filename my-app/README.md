@@ -121,11 +121,14 @@ Caption: Screenshot of the wrestler list.
 ## Deployment
 The application is deployed on Netlify. You can access it here.
  https://wrestlers-app.netlify.app/
+
+
 ##  Video Walkthrough
 Watch a video walkthrough of the app here.
 
 ## Blog Post
 Read more about the technical aspects of this project in my blog post here.
+https://medium.com/@mtahoorkhan15/building-a-pro-wrestling-app-with-react-and-json-server-e5bbee8a1138
 
 Acknowledgements
 Flatiron School
