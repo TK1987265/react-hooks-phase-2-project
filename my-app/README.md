@@ -29,30 +29,20 @@ The application has the following routes:
 /wrestlers/new - Page with a form to add a new wrestler
 
 ## Installation
-Clone the repository:
 
-sh
-Copy code
-git clone <repository-url>
-Navigate to the project directory:
+## Clone the repository:
+git clone https://github.com/TK1987265/react-hooks-phase-2-project
 
-sh
-Copy code
-cd <project-directory>
-Install dependencies:
+## Navigate to the project directory:
+cd <my-app>
 
-sh
-Copy code
-npm install
-Start the JSON server:
+## Install dependencies:
+ npm install
 
-sh
-Copy code
+## Start the JSON server:
 json-server --watch db.json --port 3001
-Start the React application:
 
-sh
-Copy code
+## Start the React application:
 npm start
 
 
