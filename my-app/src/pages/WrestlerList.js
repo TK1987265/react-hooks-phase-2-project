@@ -5,11 +5,9 @@ function WrestlerList() {
   const [wrestlers, setWrestlers] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/wrestlers')
-      .then(response => response.json())
-      .then(data =>{
-    console.log(data)
-      setWrestlers(data)});
+    fetch(`https://react-hooks-phase-2-project-3.onrender.com/wrestlers`)
+    .then((r) => r.json())
+    .then(data =>setWrestlers(data));
   }, []);
 
   return (

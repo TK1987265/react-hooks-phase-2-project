@@ -3,20 +3,20 @@
     {
       "id": 1,
       "name": "John Cena",
-      "image": "https://example.com/john-cena.png",
+      "image": "https://th.bing.com/th/id/OIP.ymgkTBHD2anwmWz_6smeIAAAAA?rs=1&pid=ImgDetMain",
       "signatureMove": "Attitude Adjustment"
     },
     {
       "id": 2,
       "name": "The Rock",
-      "image": "https://example.com/the-rock.png",
+      "image": "https://i.pinimg.com/originals/b2/97/83/b297839773b8127fc38d4cd571061c4a.jpg",
       "signatureMove": "Rock Bottom"
     },
     {
       "id": "4f9f",
-      "name": "New Wrestler",
-      "image": "",
-      "signatureMove": "new"
+      "name": "Anthony Joshua",
+      "image": "https://th.bing.com/th/id/OIP.zlLEI4t3flwVJYkQxTeI3AAAAA?rs=1&pid=ImgDetMain",
+      "signatureMove": "Joshyw"
     }
   ]
 }
