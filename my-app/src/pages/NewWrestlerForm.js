@@ -9,7 +9,7 @@ function NewWrestlerForm() {
     e.preventDefault();
     const newWrestler = { name, image, signatureMove };
 
-    fetch('http://localhost:3001/wrestlers', {
+    fetch('https://react-hooks-phase-2-project-3.onrender.com/wrestlers', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newWrestler)
