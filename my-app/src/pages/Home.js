@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
   return (
-    <div>
+    <div className="wrestler-page">
       <h1>Welcome to the Pro Wrestling App</h1>
     </div>
   );
