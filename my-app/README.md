@@ -115,6 +115,7 @@ The application is deployed on Netlify. You can access it here.
 
 ##  Video Walkthrough
 Watch a video walkthrough of the app here.
+https://youtu.be/0mrlqh8_fCs
 
 ## Blog Post
 Read more about the technical aspects of this project in my blog post here.
