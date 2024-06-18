@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function NewWrestlerForm() {
+function NewWrestlerForm({ onAddWrestler }) {
   const [name, setName] = useState('');
   const [image, setImage] = useState('');
   const [signatureMove, setSignatureMove] = useState('');
@@ -16,11 +16,12 @@ function NewWrestlerForm() {
     })
       .then(response => response.json())
       .then(data => {
-          console.log(data)
+        onAddWrestler(data);  
         setName('');
         setImage('');
         setSignatureMove('');
-      });
+      })
+      .catch(error => console.error('Error:', error));
   }
 
   return (

@@ -13,13 +13,18 @@ function App() {
     .then((r) => r.json())
     .then(data =>setWrestlers(data));
   }, []);
+
+  function addWrestler(newWrestler) {
+    setWrestlers(prevWrestlers => [...prevWrestlers, newWrestler]);
+  }
+   
   return (
     <Router>
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/wrestlers" element ={<WrestlerList wrestlers={wrestlers}/>} />
-        <Route path="/wrestlers/new" element={<NewWrestlerForm/>} />
+        <Route path="/wrestlers/new" element={<NewWrestlerForm onAddWrestler={addWrestler} />} />
       </Routes>
     </Router>
   );
